@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hubballi', cursive;
+    text-align: center;
+}
+
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url("../img/candles\ 1.jpeg");
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.intro-image__text a {
+    background-color:#6d4125b4;
+    border: 2px solid #6d4025;
+    color:#f1dcca ;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1.2s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.3);
+}
+
+.intro-text {
+    background-color:  #6d4025;
+    background-size: cover;
+    height: 210px;
+    margin-top: -6rem;
+    text-align: center;
+    padding-top: 7rem;
+    clip-path: polygon(49% 33%, 100% 0, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 0);
+}
+
+.intro-text__textbox h3 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 1rem;
+
+}
+
+.intro-text__textbox p {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    height: 450px;
+    background-image: url("../img/candles\ 5.jpeg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a {
+    background-color: #9e7b5ae8 ;
+    border: 2px solid#9e7b5a;
+    color:#583e2d ;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1.2s ease-in-out;
+
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.packaging-text {
+    background-color:#5e3520c9 ;
+    border: #5e3520;
+    color: #e8e1da ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+   
+}
+
+.packaging_text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging_text__textbox p {
+    font-size: 1.2rem;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    height: 450px;
+    background-image: url("../img/pexels-photo-8238253.jpeg");
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text a {
+    background-color: #87522ed8;
+    border: 2px solid #87522e;
+    color:#dbc9bd ;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1.2s ease-in-out;
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    background-color:#87522ee8 ;
+    background-size: cover;
+    color:#dbc9bd;
+    font-size:1.6rem ;
+    height: 30vh;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer ul li {
+    display:inline-block ;
+    margin: 1rem;
+
+}
+
+.footer ul li a {
+    color: #dbc9bd;
+    text-decoration: none;
+
+}
+
+.footer ul li:hover, .footer ul li a:hover {
+    color: #dbc9bd;
+    transform: scale(1.2);
+}
+
